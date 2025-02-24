@@ -54,12 +54,13 @@ footer {
       margin-bottom: 1rem;
     }
     .links {
-      a {
+      // a {
         display: flex;
         align-items: center;
         gap: 0.5rem;
         margin-bottom: 0.5rem;
-      }
+        justify-content: center;
+      // }
     }
   }
   .bottom {

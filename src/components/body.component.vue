@@ -108,6 +108,8 @@ async function onOtpFormSubmit(e: Event) {
   display: flex;
   padding: 15px 10px;
   gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
   input[type="email"],
   input[type="text"] {
     flex-grow: 1;
